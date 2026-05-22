@@ -244,7 +244,8 @@ color: var(--text);
     color:#9090a8;
 }
 .p-name{
-    color:white;
+    color:#7c6af7;
+    font-weight: bold;
 }
 .about-cards{
     margin-top:20px;
