@@ -521,8 +521,7 @@ color: var(--text);
 }
 .contact-container p{
     color:#9090a8;
-    max-width:600px;
-    min-width:400px;
+    width:50%;
     margin-bottom: 18px;
 }
 .contact-cards{
@@ -602,6 +601,9 @@ footer span{
     .contact-container h2{
         font-size:2.8rem;
     }
+    .contact-container p{
+        width:100%;
+    }
     .contact-cards{
         width:100%;
         display:grid;
@@ -610,9 +612,9 @@ footer span{
         
     }
     .contact-card{
-        font-size: 0.9rem;
+        font-size: 0.69rem;
+        text-align: center;
         font-weight: bold;
-        text-wrap: wrap;
         padding:10px 15px;
     }
     .hero-content{
